@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateDeleteEmploye">
+   <children>
+      <Pane layoutX="3.0" layoutY="4.0" prefHeight="576.0" prefWidth="536.0">
+         <children>
+            <Button layoutX="67.0" layoutY="479.0" mnemonicParsing="false" onAction="#updateEmploye" prefHeight="39.0" prefWidth="163.0" text="Update">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="266.0" layoutY="479.0" mnemonicParsing="false" onAction="#deleteEmploye" prefHeight="39.0" prefWidth="182.0" text="Delete">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="66.0" layoutY="123.0" text="ID">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="234.0" text="first Name">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="289.0" text="Last Nmae">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="346.0" text="Age">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="403.0" text="Date Entrer">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="id" layoutX="236.0" layoutY="120.0" prefHeight="31.0" prefWidth="105.0" />
+            <TextField fx:id="UD_fname" layoutX="236.0" layoutY="231.0" prefHeight="31.0" prefWidth="212.0" />
+            <TextField fx:id="UD_lname" layoutX="236.0" layoutY="286.0" prefHeight="31.0" prefWidth="212.0" />
+            <TextField fx:id="UD_age" layoutX="236.0" layoutY="343.0" prefHeight="31.0" prefWidth="212.0" />
+            <TextField fx:id="UD_date" layoutX="236.0" layoutY="400.0" prefHeight="31.0" prefWidth="212.0" />
+            <Label layoutX="121.0" layoutY="32.0" text="Update AND Delete Employe">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="355.0" layoutY="120.0" mnemonicParsing="false" onAction="#getEmployeById" prefHeight="31.0" prefWidth="92.0" text="Check">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="66.0" layoutY="179.0" text="Type Employé">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="UD_type" layoutX="236.0" layoutY="176.0" prefHeight="31.0" prefWidth="212.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
